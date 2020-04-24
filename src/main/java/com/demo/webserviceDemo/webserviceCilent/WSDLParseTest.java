@@ -3,7 +3,7 @@ public class WSDLParseTest
 {
     public static void main(String[] args) throws Exception
     {
-        String url = "http://webservice.webxml.com.cn/WebServices/ChinaOpenFundWS.asmx?wsdl";
+        String url = "http://localhost:9999/demo?wsdl";
         WsdlInfo wsdlInfo = new WsdlInfo(url);
         System.out.println("WSDL URL is " + wsdlInfo.getWsdlName());
 

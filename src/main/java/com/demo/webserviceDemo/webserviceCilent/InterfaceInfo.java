@@ -1,9 +1,11 @@
 package com.demo.webserviceDemo.webserviceCilent;
 
+import com.eviware.soapui.impl.wsdl.WsdlInterface;
+import com.eviware.soapui.impl.wsdl.WsdlOperation;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import com.eviware.soapui.impl.wsdl.WsdlInterface;
 
 public class InterfaceInfo 
 {
