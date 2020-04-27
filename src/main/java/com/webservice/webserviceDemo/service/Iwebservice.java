@@ -10,8 +10,8 @@ serviceName = "Iwebservice",
 targetNamespace = "http://com.webservice.webserviceDemo.service" 
 )
 public interface Iwebservice {
-	@WebMethod
+	@WebMethod(operationName = "authorization")
 	String sayHello(@WebParam(name="user") User  name);
-	@WebMethod
-	String say(@WebParam(name="user") User  name);
+//	@WebMethod
+//	String say(@WebParam(name="user") User  name);
 }

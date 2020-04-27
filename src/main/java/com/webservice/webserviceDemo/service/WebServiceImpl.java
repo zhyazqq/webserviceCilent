@@ -11,18 +11,18 @@ targetNamespace = "http://com.webservice.webserviceDemo.service"
 
 )
 public class WebServiceImpl implements Iwebservice {
-	@WebMethod
+	@WebMethod(operationName = "authorization")
 	public String sayHello(@WebParam(name="user")  User  name) {
 		
 		System.out.println(name);
 		return "succesdafsdfasdfas"+name;
 	}
-	@WebMethod
-	@Override
-	public String say(@WebParam(name="user")  User  name) {
-		// TODO Auto-generated method stub
-		System.out.println(name);
-		return "succesdafsdfasdfas"+name;
-	}
+//	@WebMethod
+//	@Override
+//	public String say(@WebParam(name="user")  User  name) {
+//		// TODO Auto-generated method stub
+//		System.out.println(name);
+//		return "succesdafsdfasdfas"+name;
+//	}
 
 }
